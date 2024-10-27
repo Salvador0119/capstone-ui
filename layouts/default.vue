@@ -1,8 +1,17 @@
 <template>
   <v-app>
-    <!-- <v-navigation-drawer color="white" v-model="drawer" :mini-variant="miniVariant" :clipped="clipped" fixed app>
+    <div>
+      <v-toolbar dark prominent src="https://cdn.vuetifyjs.com/images/backgrounds/vbanner.jpg">
+      
+        <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
+        
+        <v-toolbar-title>EASYFIX MOTORSHOP</v-toolbar-title>
 
-    </v-navigation-drawer> -->
+        <v-spacer></v-spacer>
+        
+
+      </v-toolbar>
+    </div>
 
     
   
